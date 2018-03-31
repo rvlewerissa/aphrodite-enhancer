@@ -1,0 +1,33 @@
+{
+  "name": "aphrodite-enhancer",
+  "version": "1.0.0",
+  "description": "enhance aphrodite with plain object support",
+  "main": "build/main.js",
+  "scripts": {
+    "test": "yarn test",
+    "build": "webpack --config webpack.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rvlewerissa/aphrodite-enhancer.git"
+  },
+  "keywords": ["aphrodite", "styling", "css", "css", "in", "js"],
+  "author": "Ronaldo Vitto Lewerissa",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rvlewerissa/aphrodite-enhancer/issues"
+  },
+  "homepage": "https://github.com/rvlewerissa/aphrodite-enhancer#readme",
+  "devDependencies": {
+    "babel-eslint": "^8.2.2",
+    "babel-loader": "^7.1.4",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "jest": "^22.4.3",
+    "webpack": "^4.4.1",
+    "webpack-cli": "^2.0.13"
+  },
+  "dependencies": {
+    "aphrodite": "^2.1.0"
+  }
+}
