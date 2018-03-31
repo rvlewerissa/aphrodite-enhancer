@@ -4,7 +4,7 @@
   "description": "enhance aphrodite with plain object support",
   "main": "build/main.js",
   "scripts": {
-    "test": "yarn test",
+    "test": "jest src/",
     "build": "webpack --config webpack.config.js"
   },
   "repository": {

@@ -1,0 +1,147 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`StyleWithProps should accept aphrodite object 1`] = `
+Object {
+  "className": Array [
+    Object {
+      "_definition": Object {
+        "alignItems": "center",
+        "backgroundColor": "rgb(46, 176, 244)",
+        "height": "50.6rem",
+      },
+      "_len": 209,
+      "_name": "headerWrapper_cwpl5d",
+    },
+  ],
+  "style": Object {},
+}
+`;
+
+exports[`StyleWithProps should accept array of aphrodite objects 1`] = `
+Object {
+  "className": Array [
+    Object {
+      "_definition": Object {
+        "alignItems": "center",
+        "backgroundColor": "rgb(46, 176, 244)",
+        "height": "50.6rem",
+      },
+      "_len": 209,
+      "_name": "headerWrapper_cwpl5d",
+    },
+    Object {
+      "_definition": Object {
+        "color": "white",
+        "fontSize": "2.4rem",
+        "fontWeight": 700,
+      },
+      "_len": 54,
+      "_name": "headerLogoText_8bo1c3",
+    },
+  ],
+  "style": Object {},
+}
+`;
+
+exports[`StyleWithProps should accept array of mixed objects 1`] = `
+Object {
+  "className": Array [
+    Object {
+      "_definition": Object {
+        "alignItems": "center",
+        "backgroundColor": "rgb(46, 176, 244)",
+        "height": "50.6rem",
+      },
+      "_len": 209,
+      "_name": "headerWrapper_cwpl5d",
+    },
+  ],
+  "style": Object {
+    "flex": 1,
+    "flexDirection": "row",
+  },
+}
+`;
+
+exports[`StyleWithProps should accept array of mixed objects 2`] = `
+Object {
+  "className": Array [],
+  "style": Object {
+    "flex": 1,
+  },
+}
+`;
+
+exports[`StyleWithProps should accept array of mixed objects 3`] = `
+Object {
+  "className": Array [
+    Object {
+      "_definition": Object {
+        "alignItems": "center",
+        "backgroundColor": "rgb(46, 176, 244)",
+        "height": "50.6rem",
+      },
+      "_len": 209,
+      "_name": "headerWrapper_cwpl5d",
+    },
+  ],
+  "style": Object {},
+}
+`;
+
+exports[`StyleWithProps should accept array of plain objects 1`] = `
+Object {
+  "className": Array [],
+  "style": Object {
+    "alignItems": "center",
+    "flex": 2,
+    "flexDirection": "row",
+  },
+}
+`;
+
+exports[`StyleWithProps should accept nested array and complex mixture of objects 1`] = `
+Object {
+  "className": Array [
+    Object {
+      "_definition": Object {
+        "alignItems": "center",
+        "backgroundColor": "rgb(46, 176, 244)",
+        "height": "50.6rem",
+      },
+      "_len": 209,
+      "_name": "headerWrapper_cwpl5d",
+    },
+    Object {
+      "_definition": Object {
+        "color": "white",
+        "fontSize": "2.4rem",
+        "fontWeight": 700,
+      },
+      "_len": 54,
+      "_name": "headerLogoText_8bo1c3",
+    },
+  ],
+  "style": Object {
+    "flex": 1,
+    "flexDiretion": "row",
+  },
+}
+`;
+
+exports[`StyleWithProps should accept plain object 1`] = `
+Object {
+  "className": Array [],
+  "style": Object {
+    "flex": 1,
+    "flexDirection": "row",
+  },
+}
+`;
+
+exports[`StyleWithProps should accepts null or undefined 1`] = `
+Object {
+  "className": Array [],
+  "style": Object {},
+}
+`;
